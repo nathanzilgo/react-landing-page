@@ -1,4 +1,6 @@
 import React, { Component } from 'react';
+import {Card, CardActions, CardText, IconButton, CardTitle, CardMenu, Button} from 'react-mdl';
+import { Link } from 'react-router-dom';
 
 class Tech extends Component{
     render(){
