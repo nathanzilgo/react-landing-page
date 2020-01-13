@@ -17,13 +17,13 @@ function App() {
     
     <div style={{height: '100vh', position: 'relative'}}>
         <Layout style={{background: back_url}}>
-            <Header transparent title="Nathan Fernande's Landing Page" style={{color: 'whitblanchedalmonde'}}>
+            <Header transparent title="Nathan Fernande's Landing Page" style={{color: 'whitblanchedalmonde', textShadow: '3px 3px 2px black '}}>
                 <Navigation>
-                    <Link to="/">Home</Link>
-                    <Link to="/technologies">Technologies</Link>
-                    <Link to="/projects">Projects</Link>
-                    <Link to="/about">About</Link>
-                    <Link to="/contact">Contact</Link>
+                    <Link style={{textShadow: '3px 3px 3px black '}} to="/">Home</Link>
+                    <Link style={{textShadow: '3px 3px 3px black '}} to="/technologies">Technologies</Link>
+                    <Link style={{textShadow: '3px 3px 3px black '}} to="/projects">Projects</Link>
+                    <Link style={{textShadow: '3px 3px 3px black '}} to="/about">About</Link>
+                    <Link style={{textShadow: '3px 3px 3px black '}} to="/contact">Contact</Link>
                 </Navigation>
             </Header>
             <Drawer title="My profiles">
@@ -50,6 +50,7 @@ function App() {
                     <FooterLinkList>
                         <Link to="/contact">Contact</Link>
                         <Link to="/projects">Open Projects</Link>
+                        
                     </FooterLinkList>
                 </FooterSection>
             </Footer>
