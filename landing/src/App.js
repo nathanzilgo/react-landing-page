@@ -2,7 +2,6 @@ import React from 'react';
 import logo from './logo.svg';
 import './App.css';
 import {Navigation, Header, Layout, Drawer, Content, Footer, FooterSection, FooterLinkList} from 'react-mdl';
-import {Card, CardActions, CardText, CardMedia, IconButton, CardTitle, CardMenu, Button} from 'react-mdl';
 
 import Main from './components/main';
 import { Link } from 'react-router-dom';

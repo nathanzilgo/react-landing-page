@@ -15,23 +15,23 @@ class Contact extends Component{
             <List style={{width: '100vh', backgroundColor: 'white', margin: 'auto'}}>
                 
                 <ListItem threeLine>
-                    <ListItemContent avatar="person" subtitle="nathan.pedroza@ccc.ufcg.edu.br">Email</ListItemContent>
+                    <ListItemContent avatar="person" href="nathan.pedroza@ccc.ufcg.edu.br" subtitle="nathan.pedroza@ccc.ufcg.edu.br">Email</ListItemContent>
                     <ListItemAction>
-                    <a href="#"><Icon name="star" /></a>
+                    <a href="nathan.pedroza@ccc.ufcg.edu.br"><Icon name="send" /></a>
                     </ListItemAction>
                 </ListItem>
 
                 <ListItem threeLine>
                     <ListItemContent avatar="person" subtitle="+55 83 991363063">Phone</ListItemContent>
                     <ListItemAction>
-                    <a href="#"><Icon name="star" /></a>
+                    <a href="#"><Icon name="send" /></a>
                     </ListItemAction>
                 </ListItem>
 
                 <ListItem threeLine>
                     <ListItemContent avatar="person" subtitle="https://www.linkedin.com/in/nathan-fernandes98">LinkedIn</ListItemContent>
                     <ListItemAction>
-                    <a href="#"><Icon name="star" /></a>
+                    <a href="https://www.linkedin.com/in/nathan-fernandes98"><Icon name="send" /></a>
                     </ListItemAction>
                 </ListItem>
             </List>
