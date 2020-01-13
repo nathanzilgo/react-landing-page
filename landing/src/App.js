@@ -19,6 +19,7 @@ function App() {
         <Layout style={{background: back_url}}>
             <Header transparent title="Nathan Fernande's Landing Page" style={{color: 'whitblanchedalmonde'}}>
                 <Navigation>
+                    <Link to="/landing">Home</Link>
                     <Link to="/technologies">Technologies</Link>
                     <Link to="/projects">Projects</Link>
                     <Link to="/about">About</Link>
