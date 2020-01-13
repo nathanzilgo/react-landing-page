@@ -19,7 +19,7 @@ function App() {
         <Layout style={{background: back_url}}>
             <Header transparent title="Nathan Fernande's Landing Page" style={{color: 'whitblanchedalmonde'}}>
                 <Navigation>
-                    <Link to="/landing">Home</Link>
+                    <Link to="/">Home</Link>
                     <Link to="/technologies">Technologies</Link>
                     <Link to="/projects">Projects</Link>
                     <Link to="/about">About</Link>
@@ -45,7 +45,7 @@ function App() {
             
             <Footer size="mini" style={{width: '200vh', margin: 'auto', opacity: '0.8'}}>
                 <img src={img_url} style={{width:' 5vh', height:'5vh'}}></img>
-                <FooterSection type="left" logo='Zap'>
+                <FooterSection type="left" logo='Footer'>
                     
                     <FooterLinkList>
                         <Link to="/contact">Contact</Link>
