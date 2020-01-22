@@ -11,24 +11,23 @@ class About extends Component{
                 name: 'Nathan Fernandes',
                 local: 'Campina Grande - PB, Brazil',
                 institution: 'UFCG',
-                description: ':]'
+                description: 'Computer Science undergraduate student at Federal University of Campina Grande. Currently working with NodeJS, ReactJS/React Native and Spring Boot. Worked with the development of a web system for IEEE Students Management using React, Node and MongoDB; A private project including a telegram bot that catches orders for stock market trading systems using Python with Pandas and NumPy etc.',
             },
             {
+                name: 'Technologies',
+                local: 'Campina Grande - PB, Brazil',
+                institution: 'UFCG',
                 techs: ['ReactJS', 'NodeJS', 'Java + Spring Boot', 'MySQL', 'PostgreSQL', 'MongoDB', 'Python'],
                 projects: [],
 
-            },
-            {
-                name: 'Tchubirabirom yeeeh'
             }
         ]
-        
+    
 
         super(props)
         this.state = { activeTab: 0 };
-
-        function view() {
-            if (this.state.activeTab === 0){
+    
+        function view() {}
                 return (
                     <div>
                         <h3>{tab_content[0].name}</h3>
@@ -38,25 +37,8 @@ class About extends Component{
                     </div>
                 )
             }
-            else if(this.state.activeTab === 1){
-                return(
-                    <div>
-                        <h3>Tecnologias</h3>
-                        <a>{tab_content[1].local}</a>
-                        <a>{tab_content[1].institution}</a>
-                    </div>
-                )
-            }
-            else if(this.state.activeTab === 2){
-                return(
-                    <div>
-                        <h3>Dereguejohnson</h3>
-                        <a>{tab_content[2].name}</a>
-                    </div>
-                )
-            }
-        }
-    }
+        
+    
 
     render(){
         return(
@@ -67,7 +49,7 @@ class About extends Component{
                 <Tabs activeTab={this.state.activeTab} onChange={(tabId) => this.setState({ activeTab: tabId })} ripple>
                     <Tab>Info</Tab>
                     <Tab>Experience</Tab>
-                    <Tab>Dereguejohnson</Tab>
+                    <Tab>Contact</Tab>
                 </Tabs>
                 <section>
                     <div className="content"> {this.view}</div>
