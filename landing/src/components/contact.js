@@ -17,14 +17,14 @@ class Contact extends Component{
                 <ListItem threeLine>
                     <ListItemContent avatar="person" href="nathan.pedroza@ccc.ufcg.edu.br" subtitle="nathan.pedroza@ccc.ufcg.edu.br">Email</ListItemContent>
                     <ListItemAction>
-                    <a href="nathan.pedroza@ccc.ufcg.edu.br"><Icon name="send" /></a>
+                    <a href="nathan.pedroza@ccc.ufcg.edu.br"></a>
                     </ListItemAction>
                 </ListItem>
 
                 <ListItem threeLine>
                     <ListItemContent avatar="person" subtitle="+55 83 991363063">Phone</ListItemContent>
                     <ListItemAction>
-                    <a href="#"><Icon name="send" /></a>
+                    <a href="#"></a>
                     </ListItemAction>
                 </ListItem>
 
@@ -32,6 +32,13 @@ class Contact extends Component{
                     <ListItemContent avatar="person" subtitle="https://www.linkedin.com/in/nathan-fernandes98">LinkedIn</ListItemContent>
                     <ListItemAction>
                     <a href="https://www.linkedin.com/in/nathan-fernandes98"><Icon name="send" /></a>
+                    </ListItemAction>
+                </ListItem>
+
+                <ListItem threeLine>
+                    <ListItemContent avatar="person" subtitle="https://web.facebook.com/nathanfpedroza">Facebook</ListItemContent>
+                    <ListItemAction>
+                        <a href="https://web.facebook.com/nathanfpedroza"><Icon name="send" /></a>
                     </ListItemAction>
                 </ListItem>
             </List>
