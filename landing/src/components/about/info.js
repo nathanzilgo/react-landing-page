@@ -26,7 +26,7 @@ class Info extends Component {
                     <CardText>
                         {this.props.description}
                     </CardText>
-                    
+
                     <CardActions border>
                         <Button colored href={"/contact"}>Contact</Button>
                     </CardActions>
@@ -36,7 +36,9 @@ class Info extends Component {
                 </Card>
 
             </div>
-        )
+        );
     }
     
 }
+
+export default Info;
