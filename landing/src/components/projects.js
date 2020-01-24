@@ -19,7 +19,7 @@ class Projects extends Component{
                 </div>
             
                 <div style={{display: 'flex'}}>
-                    <Card shadow={10} style={{width: '50vh', margin: 'auto', marginTop: '20vh', borderRadius: '10px'}}>
+                    <Card shadow={10} style={{width: '50vh', margin: 'auto', marginTop: '10vh', borderRadius: '10px'}}>
                         <CardTitle style={{textShadow: '2px 2px 3px black', color: 'white', height: '20vh', background: imgs.orpheus}}>Orpheus Platform</CardTitle>
                         <CardText>
                             Aplicação voltada a organização e aprendizado musicais em Nodejs, MongoDB e ReactJS
@@ -31,7 +31,7 @@ class Projects extends Component{
                             <IconButton name="share" />
                         </CardMenu>
                     </Card>
-                    <Card shadow={10} style={{width: '50vh', margin: 'auto', marginTop: '20vh', borderRadius: '10px'}}>
+                    <Card shadow={10} style={{width: '50vh', margin: 'auto', marginTop: '10vh', borderRadius: '10px'}}>
                         <CardTitle style={{textShadow: '2px 2px 3px black', color: 'white', height: '20vh', background: imgs.ieee}}>IEEE Management System</CardTitle>
                         <CardText>
                             Sistema de administração desenvolvido por GUARDIANS UFCG para membros do grupo IEEE.

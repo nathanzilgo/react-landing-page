@@ -3,7 +3,7 @@ import logo from './logo.svg';
 import './App.css';
 import {Navigation, Header, Layout, Drawer, Content, Footer, FooterSection, FooterLinkList} from 'react-mdl';
 
-import Main from './components/main';
+import Main from './components/routes';
 import { Link } from 'react-router-dom';
 
 function App() {
@@ -17,10 +17,10 @@ function App() {
     
     <div style={{height: '100vh', position: 'relative'}}>
         <Layout style={{background: back_url}}>
-            <Header transparent title="Nathan Fernande's Landing Page" style={{color: 'whitblanchedalmonde', textShadow: '3px 3px 2px black '}}>
+            <Header transparent title="A simple ReactJS Landing Page" style={{color: 'whitblanchedalmonde', textShadow: '3px 3px 2px black '}}>
                 <Navigation>
                     <Link style={{textShadow: '3px 3px 3px black '}} to="/">Home</Link>
-                    <Link style={{textShadow: '3px 3px 3px black '}} to="/technologies">Technologies</Link>
+                    <Link style={{textShadow: '3px 3px 3px black '}} to="/technologies">References</Link>
                     <Link style={{textShadow: '3px 3px 3px black '}} to="/projects">Projects</Link>
                     <Link style={{textShadow: '3px 3px 3px black '}} to="/about">About</Link>
                     <Link style={{textShadow: '3px 3px 3px black '}} to="/contact">Contact</Link>
@@ -43,7 +43,7 @@ function App() {
             
 
             
-            <Footer size="mini" style={{width: '200vh', margin: 'auto', opacity: '0.8'}}>
+            <Footer size="mini" style={{ minWidth: '100%', margin: 'auto', height: '2vh', opacity: '0.8'}}>
                 <img src={img_url} style={{width:' 5vh', height:'5vh'}}></img>
                 <FooterSection type="left" logo='Footer'>
                     

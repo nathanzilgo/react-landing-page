@@ -10,10 +10,12 @@ class Landing extends Component{
             <div>
                 <h1 className="page-title">Home</h1>
 
-                <Card shadow={10} style={{width: '50vh', margin: 'auto', marginTop: '20vh', borderRadius: '10px'}}>
+                <Card shadow={10} style={{width: '50vh', margin: 'auto', marginTop: '10vh', borderRadius: '10px'}}>
                     <CardTitle style={{textShadow: '2px 2px 3px black', color: 'white', height: '20vh', background: card_url}}>Bem vindo!</CardTitle>
                     <CardText>
-                        Aqui você pode encontrar projetos para contribuir, avaliar e referências de tecnologias e tutoriais de programação!
+                        Aqui você vai poder encontrar projetos para contribuir e referências de tecnologias e tutoriais de programação!
+                        <br/> 
+                        A maioria das funcionalidades ainda estão em desenvolvimento.
                     </CardText>
 
                     <div style={{display: 'flex'}}>
@@ -25,7 +27,7 @@ class Landing extends Component{
 
                         <CardActions border>
                             <Link to="/technologies">
-                                <Button colored >Tecnologias e tutoriais</Button>
+                                <Button colored >Referências</Button>
                             </Link>
                         </CardActions>
                     </div>
