@@ -10,7 +10,7 @@ class Contact extends Component{
         }
         return(
         <div>
-            <h1 className="page-title">Contact Page</h1>
+            <h1 className="page-title">Contact</h1>
 
             <List style={{width: '100vh', backgroundColor: 'white', margin: 'auto'}}>
                 

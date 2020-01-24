@@ -11,8 +11,8 @@ class Tech extends Component{
         <div>
             <h1 className="page-title">Em desenvolvimento :[</h1>
 
-            <Card shadow={10} style={{width: '50vh', margin: 'auto', marginTop: '20vh', borderRadius: '10px'}}>
-                    <CardTitle style={{textShadow: '2px 2px 3px black', color: 'white', height: '20vh', background: imgs.production}}>Ainda em desenvolvimento!</CardTitle>
+            <Card shadow={10} style={{width: '50vh', margin: 'auto', marginTop: '5vh', borderRadius: '10px'}}>
+                    <CardTitle style={{textShadow: '2px 2px 3px black', color: 'white', height: '40vh', background: imgs.production}}></CardTitle>
                     <CardText>
                         Em breve os recursos estarão disponíveis.
                     </CardText>
