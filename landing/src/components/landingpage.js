@@ -10,7 +10,7 @@ class Landing extends Component{
             <div>
                 <h1 className="page-title">Home</h1>
 
-                <Card shadow={10} style={{width: '50vh', margin: 'auto', marginTop: '10vh', borderRadius: '10px'}}>
+                <Card shadow={10} style={{width: '80vh', height: '50vh', margin: 'auto', marginTop: '10vh', borderRadius: '10px'}}>
                     <CardTitle style={{textShadow: '2px 2px 3px black', color: 'white', height: '20vh', background: card_url}}>Bem vindo!</CardTitle>
                     <CardText>
                         Aqui você vai poder encontrar projetos para contribuir e referências de tecnologias e tutoriais de programação!
