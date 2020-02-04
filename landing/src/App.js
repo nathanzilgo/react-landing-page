@@ -26,8 +26,13 @@ function App() {
                     <Link style={{textShadow: '3px 3px 3px black '}} to="/contact">Contact</Link>
                 </Navigation>
             </Header>
-            <Drawer title="My profiles">
+            <Drawer title="Mobile navigation">
                 <Navigation>
+                    <a href={"/"}>Home</a>
+                    <a href={"/projects"}>Projects</a>
+                    <a href={"/references"}>References</a>
+                    <a href={"/about"}>About</a>
+                    <a href={"/contact"}>Contact</a>
                     <a href={GitHub}>GitHub</a>
                     <a href={LinkedIn}>LinkedIn</a>
                     
