@@ -26,7 +26,7 @@ class Landing extends Component{
                         </CardActions>
 
                         <CardActions border>
-                            <Link to="/technologies">
+                            <Link to="/references">
                                 <Button colored >Referências</Button>
                             </Link>
                         </CardActions>
