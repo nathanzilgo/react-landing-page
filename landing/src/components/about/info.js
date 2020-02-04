@@ -84,7 +84,7 @@ class Info extends Component {
                                 MongoDB NoSQL database software 
                                 
                             </span>
-                            <IconButton name="link" href="https://pt-br.reactjs.org/"></IconButton>        
+                            <IconButton name="link" href="https://www.mongodb.com/"></IconButton>        
                         </CardActions>
                     </Card>
 
