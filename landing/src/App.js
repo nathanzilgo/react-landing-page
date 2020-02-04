@@ -20,7 +20,7 @@ function App() {
             <Header transparent title="A simple ReactJS Landing Page" style={{color: 'whitblanchedalmonde', textShadow: '3px 3px 2px black '}}>
                 <Navigation>
                     <Link style={{textShadow: '3px 3px 3px black '}} to="/">Home</Link>
-                    <Link style={{textShadow: '3px 3px 3px black '}} to="/technologies">References</Link>
+                    <Link style={{textShadow: '3px 3px 3px black '}} to="/references">References</Link>
                     <Link style={{textShadow: '3px 3px 3px black '}} to="/projects">Projects</Link>
                     <Link style={{textShadow: '3px 3px 3px black '}} to="/about">About</Link>
                     <Link style={{textShadow: '3px 3px 3px black '}} to="/contact">Contact</Link>
@@ -40,16 +40,16 @@ function App() {
                 
             </Content>
 
-            
-
-            
+        
             <Footer size="mini" style={{ minWidth: '100%', margin: 'auto', height: '2vh', opacity: '0.8'}}>
                 <img src={img_url} style={{width:' 5vh', height:'5vh'}}></img>
                 <FooterSection type="left" logo='Footer'>
                     
                     <FooterLinkList>
-                        <Link to="/contact">Contact</Link>
+                        <Link to="/">Home</Link>
                         <Link to="/projects">Open Projects</Link>
+                        <Link to="/about">About</Link>
+                        <Link to="/contact">Contact</Link>
                         
                     </FooterLinkList>
                 </FooterSection>

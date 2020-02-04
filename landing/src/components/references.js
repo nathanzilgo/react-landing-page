@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import {Card, CardActions, CardText, IconButton, CardTitle, CardMenu, Button} from 'react-mdl';
 import { Link } from 'react-router-dom';
 
-class Tech extends Component{
+class References extends Component{
     render(){
         const imgs = {
             production: 'url(https://media3.giphy.com/media/OQcPes29d8sUg/source.gif) center / cover'
@@ -39,4 +39,4 @@ class Tech extends Component{
     }
 };
 
-export default Tech;
+export default References;
